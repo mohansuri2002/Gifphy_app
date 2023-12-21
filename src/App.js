@@ -17,6 +17,8 @@ function App() {
           <Route exact path='/register' element={<Register />} />
           <Route exact path='/login' element={<Login />} />
           <Route exact path='/' element={<PrivateRoute Cmp={Home} />} />
+          <Route exact path='/home' element={<PrivateRoute Cmp={Home} />} />
+          <Route exact path='/Giphy_app/' element={<PrivateRoute Cmp={Home} />} />
           <Route exact path='/profile' element={<PrivateRoute Cmp={Profile} />} />
         </Routes>
       </AuthProvider>
