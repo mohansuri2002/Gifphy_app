@@ -18,7 +18,7 @@ function App() {
           <Route exact path='/login' element={<Login />} />
           <Route exact path='/' element={<PrivateRoute Cmp={Home} />} />
           <Route exact path='/home' element={<PrivateRoute Cmp={Home} />} />
-          <Route exact path='/Giphy_app/' element={<PrivateRoute Cmp={Home} />} />
+          <Route exact path='/Gifphy_app' element={<PrivateRoute Cmp={Home} />} />
           <Route exact path='/profile' element={<PrivateRoute Cmp={Profile} />} />
         </Routes>
       </AuthProvider>
